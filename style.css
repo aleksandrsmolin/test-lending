@@ -1,0 +1,22 @@
+.header {
+  height: 670px;
+  opacity: 0.6;
+  background-color: #0c0c0c;
+}
+
+.header-title {
+  width: 730px;
+  height: 108px;
+  font-family: PlayfairDisplay;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-titile-st {
+  font-weight: normal;
+  font-style: italic;
+}
