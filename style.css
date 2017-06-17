@@ -4,8 +4,27 @@
   background-color: #0c0c0c;
 }
 
+.logo {
+  width: 82px;
+  height: 32px;
+}
+
+.title {
+  text-align: center;
+}
+
+.little-title {
+  height: 9px;
+  font-family: WorkSans;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 6;
+  letter-spacing: 2.8px;
+  text-align: center;
+  color: #ffffff;
+}
+
 .header-title {
-  width: 730px;
   height: 108px;
   font-family: PlayfairDisplay;
   font-size: 48px;
@@ -19,4 +38,11 @@
 .header-titile-st {
   font-weight: normal;
   font-style: italic;
+  height: 108px;
+  font-family: PlayfairDisplay;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #ffffff;
 }
