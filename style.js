@@ -10,6 +10,11 @@ export default StyleSheet.create({
     'width': [{ 'unit': 'px', 'value': 82 }],
     'height': [{ 'unit': 'px', 'value': 32 }]
   },
+  'menu-icon': {
+    'width': [{ 'unit': 'px', 'value': 40 }],
+    'height': [{ 'unit': 'px', 'value': 40 }],
+    'textAlign': 'right'
+  },
   'title': {
     'textAlign': 'center'
   },
@@ -24,7 +29,6 @@ export default StyleSheet.create({
     'color': '#ffffff'
   },
   'header-title': {
-    'height': [{ 'unit': 'px', 'value': 108 }],
     'fontFamily': 'PlayfairDisplay',
     'fontSize': [{ 'unit': 'px', 'value': 48 }],
     'fontWeight': 'bold',
@@ -36,12 +40,18 @@ export default StyleSheet.create({
   'header-titile-st': {
     'fontWeight': 'normal',
     'fontStyle': 'italic',
-    'height': [{ 'unit': 'px', 'value': 108 }],
     'fontFamily': 'PlayfairDisplay',
     'fontSize': [{ 'unit': 'px', 'value': 48 }],
     'lineHeight': [{ 'unit': 'px', 'value': 1.25 }],
     'letterSpacing': [{ 'unit': 'px', 'value': 1.4 }],
     'textAlign': 'center',
     'color': '#ffffff'
+  },
+  'ellipse': {
+    'width': [{ 'unit': 'px', 'value': 50 }],
+    'height': [{ 'unit': 'px', 'value': 50 }],
+    'opacity': '0.6',
+    'backgroundColor': '#ffffff',
+    'border': [{ 'unit': 'string', 'value': 'solid' }, { 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': '#ffffff' }]
   }
 });
